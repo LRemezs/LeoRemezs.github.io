@@ -1,0 +1,1 @@
+<p>I learnt my HTML5 as a part of Learning People Front-End Engineer Career Path. This website is my first project showcasing my newly developed skills.</p>

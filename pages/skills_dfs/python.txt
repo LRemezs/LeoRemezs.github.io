@@ -1,0 +1,1 @@
+<p>Python was actually my first serious attempt at learning to code on my own. At first I struggled a lot, however, after I started learning JavaScript, suddenly Python made sense too. You can find my first Python project if you check out the Projects section from the main page.</p>

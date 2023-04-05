@@ -1,0 +1,1 @@
+<p>I learnt my CSS3 as a part of Learning People Front-End Engineer Career Path. This website is my first project showcasing my newly developed skills. I would not call myself a professional yet, as I have seen many amazing things created purely with just CSS however, I am definitely on a journey to explore the various posibilities.</p>

@@ -1,0 +1,128 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+/* Pan Animations */
+@keyframes pan-overlay {
+  from {
+    background-position: 0% 0%;
+  }
+
+  to {
+    background-position: 0% -100%;
+  }
+}
+
+/* Screen Effect */
+
+.screen {
+  width: 70vw;
+  border: 3px solid rgb(8, 151, 68);
+  border-radius: 1rem;
+  aspect-ratio: 16 / 9;
+  background-color: rgba(8, 151, 68, 0.45);
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+}
+
+.screen > .screen-background {
+  background: rgba(0, 0, 0, 0.75);
+  height: 100%;
+  width: 100%; 
+  z-index: 1;
+  position: absolute;
+}
+
+.screen-overlay {
+  background: linear-gradient(
+    rgba(8, 151, 68, 0.55),
+    rgba(8, 151, 68, 0.55) 3px,
+    transparent 3px,
+    transparent 9px
+  );
+  background-size: 100% 9px;
+  height: 100%;
+  width: 100%;
+  animation: pan-overlay 12s infinite linear;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+.screen > .screen-content {
+  position: relative;
+  z-index: 3;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.button-plane {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.skip,
+.restart {
+  color: hwb(110 13% 2%);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2rem;
+  border: none;
+  background: none;
+  outline: none;
+  text-decoration: underline;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+#output {
+  color: hwb(110 13% 2%);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2rem;
+  overflow-wrap: anywhere;
+  padding: 10px;
+}
+
+
+/* Pointer Navigation */
+
+#back-arrow {
+  width: 15vmin;
+  position: absolute;
+  transform: translate(-650%, 320%);
+}
+
+#pointer-left {
+  width: 15vmin;
+  color:rgb(155, 155, 228);
+  transition: transform 0.2s ease-in-out;
+}
+
+#pointer-left:hover {
+  transform: scale(1.5);
+  animation: pulse 1s infinite;
+}
+
+/* Define an animation for the pulse effect */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

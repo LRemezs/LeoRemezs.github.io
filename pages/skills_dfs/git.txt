@@ -1,0 +1,1 @@
+<p>I learnt about git as a part of Learning People Front-End Engineer Career Path. I would not call myself a professional yet, as I yet to explore full range of possibilities that git provides, however, I have a good understanding on "what's" and "how's". And for the times I might be lost - there is always documentation or someone to ask.</p>

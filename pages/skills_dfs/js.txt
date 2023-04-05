@@ -1,0 +1,1 @@
+<p>I learnt my JavaScript as a part of Learning People Front-End Engineer Career Path. This website is my first project showcasing my newly developed skills. So far it seems that almost anything can be done with JavaScript and I am eager to add more ideas to my toolbox and explore the possibilities of JavaScript.</p>

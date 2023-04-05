@@ -1,0 +1,130 @@
+
+
+/* header bit */
+header {
+  width: 100vw;
+  color: rgb(24, 189, 214);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0.5;
+}
+
+
+/* background instructions */
+#instruction {
+  color:rgb(163, 226, 235);
+  position: fixed;
+  left: -25%;
+  top: 35%;
+  animation: attention 5s infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes attention {
+  from {
+    scale: 1;
+    opacity: .75;
+  }
+
+  50% {
+    scale: 1.1;
+    opacity: 1;
+  }
+
+  to {
+    scale: 1;
+    opacity: .75;
+  }
+}
+
+#pointer {
+  width: 15vmin;
+  height: 10vmin;
+
+}
+
+/* slider setup */
+
+#track {
+  gap: 6vmin;
+  display: flex;
+  position: absolute;
+  left: 35%;
+  top: 45%;
+  transform: translate(0%, -50%);
+}
+
+.image {
+  margin: 0;
+  padding: 0;
+  width: 40vmin;
+  height: 40vmin;
+  border: 3px solid rgba(123, 20, 207, 0.705);
+  border-radius: 15%;
+  overflow: hidden;
+  box-shadow: 0 0 2em -0.5em #aaa;
+  position: relative;
+}
+
+#track > .image > img {
+  width: 45vmin;
+  height: 40vmin;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.selection {
+  position: absolute;
+  bottom: 0em;
+  background-color: rgba(190, 26, 231, 0.664);
+  border-radius: 15%;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selection > a {
+  color: rgb(155, 155, 228);
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  display: inline-block;
+}
+
+
+/* highlight effect */
+.image:hover > img {
+  opacity: 0.2;
+  transition: opacity 1s;
+}
+
+.image:hover > .selection {
+  height: 100%;  
+  font-size: 2em;
+  transition: all 1s;
+}
+
+.selection > a:hover {
+  color: rgb(204, 204, 241);
+}
+
+#call4action {
+  color: rgb(221, 88, 88);
+}
+
+#call4action:hover {
+  color: rgb(134, 5, 5);
+}
+
+/* footer */
+
+footer {
+  position: fixed;
+  bottom: 10vmin;
+  width: 100%;
+  text-align: center;
+  color: rgb(155, 155, 228);
+}

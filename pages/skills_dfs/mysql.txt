@@ -1,0 +1,1 @@
+<p>I have used SQL when creating reports from databases, however, it was just a small involvement with basic queries. I will definitely explore the possibilities of this tool in future. Especially, once I am ready to learn about back-end technologies.</p>

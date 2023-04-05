@@ -1,0 +1,1 @@
+<p>I learnt about GitHub as a part of Learning People Front-End Engineer Career Path. I would not call myself a professional yet, as I yet to explore full range of possibilities it provides, however, I have managed to publish couple of my projects already and I believe this will only get better with practice.</p>
