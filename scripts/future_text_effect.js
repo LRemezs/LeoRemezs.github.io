@@ -26,7 +26,7 @@ function runAnimation(text) {
       isRunning = false;
     }
 
-    iteration += 1 / 3;
+    iteration += 4;
   }, 30);
 
   isRunning = true;
