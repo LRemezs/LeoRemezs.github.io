@@ -74,7 +74,7 @@ body {
 .restart {
   color: hwb(110 13% 2%);
   font-family: 'Source Code Pro', monospace;
-  font-size: 2rem;
+  font-size: 5vh;
   border: none;
   background: none;
   outline: none;
@@ -89,7 +89,7 @@ button:hover {
 #output {
   color: hwb(110 13% 2%);
   font-family: 'Source Code Pro', monospace;
-  font-size: 2rem;
+  font-size: 5vh;
   overflow-wrap: anywhere;
   padding: 10px;
 }

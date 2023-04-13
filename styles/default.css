@@ -7,9 +7,17 @@ h1, h2, h3 {
   font-family: 'Climate Crisis', cursive;
 }
 
+h1 {
+  font-size: 6vh;
+}
+
+h2 {
+  font-size: 5vh;
+}
+
 h4 {
   font-family: 'Tilt Prism', cursive;
-  font-size: 2.5em;
+  font-size: 5vh;
 }
 
 
@@ -17,8 +25,8 @@ h4 {
 #bckg-flare {
   background: linear-gradient(
     to right,
-    rgba(0, 255, 170, 0.582),
-    rgba(255, 5, 255, 0.582)
+    rgba(0, 255, 170, 0.822),
+    rgba(255, 5, 255, 0.822)
   );
   height: 500px;
   width: 500px;

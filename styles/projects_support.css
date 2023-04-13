@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  height: 80vh;
+  height: 70vh;
   aspect-ratio: 2 / 1;
   background-color: rgba(245, 245, 220, 0.158);
   border: 6px solid rgb(24, 189, 214);
@@ -43,18 +43,18 @@ body {
 .links > h2 {
   text-align: center;
   color: rgba(35, 8, 59, 0.753);
-  font-size: 2rem;
+  font-size: 3vh;
 }
 
 .links > a > button {
   background-color: transparent;
   width: 20vw;
-  height: 10vh;
-  border-radius: 3vh;
+  height: 6vh;
+  border-radius: 1vh;
   border: 2px solid rgb(4, 40, 46);
   color: rgb(185, 220, 250);
   background-color: rgba(11, 100, 56, 0.753);
-  font-size: 1.5rem;
+  font-size: 4vh;
 }
 
 .links > a > button:hover {
@@ -73,7 +73,7 @@ body {
 
 .description > p {
   color: rgb(185, 220, 250);
-  font-size: 1.5rem;
-  padding: 5px;
+  font-size: 4vh;
+  padding: 1vh;
 }
 

@@ -18,12 +18,12 @@ body {
   justify-content: center;
   align-items: center;
   color:rgb(99, 206, 206);
-  font-size: 2rem;
+  font-size: 5vh;
 }
 
 .business-card > h3 > a {
   color:rgb(125, 197, 76);
-  font-size: 4rem;
+  font-size: 8vh;
   padding: 5px;
   text-decoration: underline;
 }

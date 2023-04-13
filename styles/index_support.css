@@ -14,13 +14,13 @@ header {
 /* background instructions */
 #instruction {
   color:rgb(163, 226, 235);
-  position: fixed;
-  left: -25%;
-  top: 35%;
+  position: relative;
+  top: 10vh;
   animation: attention 5s infinite;
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 5;
 }
 
 @keyframes attention {
@@ -78,7 +78,7 @@ header {
 
 .selection {
   position: absolute;
-  bottom: 0em;
+  bottom: 0;
   background-color: rgba(190, 26, 231, 0.664);
   border-radius: 15%;
   height: 20%;
@@ -123,7 +123,7 @@ header {
 
 footer {
   position: fixed;
-  bottom: 10vmin;
+  bottom: 5px;
   width: 100%;
   text-align: center;
   color: rgb(155, 155, 228);
