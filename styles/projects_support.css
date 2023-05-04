@@ -77,3 +77,43 @@ body {
   padding: 1vh;
 }
 
+@media only screen and (max-width: 768px) { 
+  .container {
+    height: 50vh;
+    aspect-ratio: 2 / 1;
+    background-color: rgba(245, 245, 220, 0.158);
+    border: 6px solid rgb(24, 189, 214);
+    border-radius: 2vh;
+    overflow: hidden;
+  }
+  
+  .card {
+    display: block;
+    height: 100%;
+    background-color: rgb(24, 189, 214);
+  }
+  
+  .clickbait {
+    display: none;
+  }
+  
+  
+  .links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links > h2 {
+    font-size: 3vh;
+  }
+  
+  .links > a > button {
+    font-size: 2vh;
+  }
+  
+  
+  .description > p {
+    font-size: 2vh;
+    padding: 1vh;
+  }
+}

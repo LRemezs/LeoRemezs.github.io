@@ -94,3 +94,15 @@ button:hover {
   padding: 2vh;
 }
 
+@media only screen and (max-width: 768px) { 
+  .screen {
+    width: 95%;
+    height: 80%;
+  }
+    
+  .skip,
+  .restart,
+  #output {
+    font-size: 2vh;
+  }
+}

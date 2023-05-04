@@ -128,3 +128,34 @@ footer {
   text-align: center;
   color: rgb(155, 155, 228);
 }
+
+
+@media only screen and (max-width: 768px) {
+  #instruction {
+    display: none;
+  }
+
+  header {
+    color: rgb(24, 189, 214);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  #track {
+    gap: 2vmin;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+  }
+
+  footer {
+    position: relative;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    color: rgb(155, 155, 228);
+  }
+}

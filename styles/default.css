@@ -91,7 +91,7 @@ body {
   animation: pulse 1s infinite;
 }
 
-/* Define an animation for the pulse effect */
+/* Animation for the pulse effect */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -101,5 +101,33 @@ body {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  h1 {
+    font-size: 3vh;
+  }
+  
+  h2 {
+    font-size: 2vh;
+  }
+  
+  h4 {
+    font-family: 'Tilt Prism', cursive;
+    font-size: 2vh;
+  }
+
+  body {
+    overflow: scroll;
+  }
+
+  #bckg-flare {
+    display: none;
+  }
+  
+  #blur {
+    display: none;
   }
 }
